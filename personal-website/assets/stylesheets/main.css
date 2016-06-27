@@ -60,7 +60,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  color: #648880;
+  color: #009999;
 }
 
 h1 {
@@ -116,7 +116,7 @@ p a {
 }
 .primary-header a,
 .primary-footer a {
-  color: #fff;
+  color: #00FF00;
 }
 .primary-header a:hover,
 .primary-footer a:hover {
@@ -198,9 +198,9 @@ p a {
 
 .row-alt {
   background: #cbe2c1;
-  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
-  background: linear-gradient(to right, #a1d3b0, #f6f1d3)
+  background: -webkit-linear-gradient(to right, red, blue);
+  background: moz-linear-gradient(to right, red, blue);
+  background: linear-gradient(to right, darkblue, darkgreen)
 }
 
 /*
@@ -251,7 +251,15 @@ h1, h3, h4, h5, p {
   background: #fff;
   color: #648880;
 }
-
+.btn-default {
+  border: 0;
+  background: #648880;
+  padding: 11px 30px;
+  font-size: 14px;
+}
+.btn-default:hover {
+  background: #77a198;
+}
 /*
   ========================================
   Primary header
@@ -309,7 +317,7 @@ h1, h3, h4, h5, p {
 */
 
 .hero {
-  color: #fff;
+  color: orange;
   line-height: 44px;
   padding: 22px 80px 66px 80px;
   text-align: center;
@@ -345,15 +353,14 @@ h1, h3, h4, h5, p {
   ========================================
 */
 
-.speaker-info {
-  border: 1px solid #dfe2e5;
+.hobby-info {
   border-radius: 5px;
   margin-top: 88px;
   padding: 22px;
   text-align: center;
 }
 
-.speaker {
+.hobby {
   margin-bottom: 44px;
 }
 
@@ -369,10 +376,10 @@ h1, h3, h4, h5, p {
   margin-bottom: 22px;
   max-width: 100%;
 }
-.speaker-info img {
-  border-radius: 50%;
-  height:130px;
-  margin: -66px 0 22px 0;
+.hobby-info img {
+  border-radius: 10%;
+  height: 250px;
+  margin: 10px 0 22px 0;
   vertical-align: top;
 }
 
@@ -403,4 +410,40 @@ h1, h3, h4, h5, p {
 .why-attend {
   list-style: square;
   margin: 0 0 22px 30px;
+}
+
+form {
+  margin-bottom: 22px;
+
+}
+input,
+select,
+textarea {
+  font: 300 16px/22px 'Lato', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.register-group label {
+  color: #648880;
+  cursor: pointer;
+  font-weight: 400;
+}
+.register-group input,
+.register-group select,
+.register-group textarea {
+  border: 1px solid #c6c9cc;
+  border-radius: 5px;
+  color: #888;
+  display: block;
+  margin: 5px 0 27px 0;
+  padding: 5px 8px;
+}
+.register-group input,
+.register-group textarea {
+  width: 100%;
+}
+.register-group select {
+  height: 34px;
+  width: 60px;
+}
+.register-group textarea {
+  height: 78px;
 }
