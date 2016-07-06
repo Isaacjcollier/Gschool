@@ -1,0 +1,19 @@
+h1 {
+  color: #1eFFdd;
+  text-align: center;
+}
+
+body {
+  background-color: #225577;
+  text-align: center;
+}
+
+ol {
+  color: #FF2222;
+  display: inline-block;
+  text-align: left;
+}
+
+p {
+  color: white;
+}
