@@ -1,0 +1,10 @@
+img {
+  padding: 0 25% 0 25%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+p {
+  color: magenta;
+  text-align: center;
+}
